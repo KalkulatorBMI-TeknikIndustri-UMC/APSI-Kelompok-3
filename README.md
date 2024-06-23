@@ -1,4 +1,4 @@
-# BMI Kalculator
+# BMI Kalkulator
 
 Kalkulator BMI (Body Mass Index) by Universitas Muhammadiyah Cirebon
 
