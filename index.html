@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KALKULATOR BMI SEDERHANA</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>KALKULATOR BMI <P> </P>(BODY MASS INDEX)</h1>
+
+      <form class="calculator">
+        <div>
+          <label for="weight">BERAT BADAN (kg)</label>
+          <input type="number" id="weight" min="0" step="0.01" value="0" />
+        </div>
+        
+        <div>
+          <label for="height">TINGGI (cm)</label>
+          <input type="number" id="height" min="0" step="0.01" value="0" />
+        </div>
+
+        <div>
+          <label for="age">USIA (tahun)</label>
+          <input type="number" id="age" min="0" step="0.01" value="0" />
+        </div>
+        
+        <div>
+          <label>KELAMIN</label>
+          <div>
+            <input type="radio" name="gender" id="male" value="Laki-Laki" checked />
+            <label for="male">Laki-Laki</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="female" value="Perempuan" />
+            <label for="female">Perempuan</label>
+          </div>
+        </div>        
+
+
+        <div>
+          <button type="reset">RESET</button>
+          <button type="submit">HITUNG</button>
+        </div>
+      </form>
+
+      <section class="output">
+        <h3>HASIL</h3>
+        <p id="bmi">0</p>
+        <p id="desc">Keterangan</p>
+      </section>
+
+      <section class="bmi-scale">
+        <div style="--color: var(--underweight)">
+          <h4>KURUS</h4>
+          <p>&lt; 18.5</p>
+        </div>
+
+        <div style="--color: var(--normal)">
+          <h4>IDEAL</h4>
+          <p>18.5 – 25</p>
+        </div>
+
+        <div style="--color: var(--overweight)">
+          <h4>GEMUK</h4>
+          <p>25 – 30</p>
+        </div>
+
+        <div style="--color: var(--obese)">
+          <h4>OBESITAS</h4>
+          <p>≥ 30</p>
+        </div>
+      </section>
+    </div> <p></p>
+    <footer>
+      </div> <p>&copy; UNIVERSITAS MUHAMMADIYAH CIREBON</p> </div>
+  </footer>
+      <section> <div> <strong>SARAN KONSULTASI :</strong>  </div> </section>
+      <div class="consultation">
+        <a href="https://www.halodoc.com/artikel/ini-dokter-di-halodoc-yang-bisa-bantu-mengatasi-obesitas">
+          <img src="halodoc.png" width="270" height="80" title="Halodoc" alt="DESKRIPSI GAMBAR" />
+        </a>
+        <a href="https://www.dkonsul.com/tanya-kami">
+          <img src="dkonsul.png" width="270" height="80" title="D-Konsul" alt="DESKRIPSI GAMBAR" />
+        </a>
+        <a href="https://www.klikdokter.com/tanya-dokter">
+          <img src="klikdokter.png" width="270" height="80" title="Klik Dokter" alt="DESKRIPSI GAMBAR" />
+        </a>
+        <a href="https://linksehat.com/tanya-dokter">
+          <img src="KEMENKES.png" width="270" height="80" title="Kementrian Kesehatan" alt="DESKRIPSI GAMBAR" />
+        </a>
+      </div>
+      <div class="pengertian">
+        <p>
+          Kalkulator BMI (Body Mass Index) adalah alat yang digunakan untuk mengukur dan menentukan indeks massa tubuh seseorang berdasarkan berat badan, tinggi badan, usia dan jenis kelamin. BMI dihitung dengan membagi berat badan seseorang dalam kilogram dengan kuadrat tinggi badan mereka dalam meter (kg/m²). Hasil dari perhitungan ini digunakan untuk mengkategorikan seseorang ke dalam beberapa kelompok, seperti kurus, ideal, gemuk dan obesitas. Kategori-kategori ini membantu dalam mengevaluasi apakah seseorang memiliki berat badan yang sehat atau jika mereka memerlukan perhatian medis lebih lanjut. Meskipun BMI bukanlah ukuran sempurna dari kesehatan tubuh secara keseluruhan, karena tidak memperhitungkan faktor seperti massa otot atau distribusi lemak, ini tetap menjadi alat yang berguna dan umum digunakan untuk screening awal kondisi berat badan.
+        </p>
+      </div>
+      <div class="fitur">
+        <p>Fitur Kalkulator BMI (Body Mass Index) :</p>
+        <p>1. Menghitung BMI Berdasarkan Berat badan, Tinggi Badan, Usia dan Jenis Kelamin</p>
+        <p>2. Menentukan Kategori Berat Badan </p>
+        <p>3. Menyediakan Informasi Tambahan Tentang BMI, Saran dan Risiko Kesehatan</p>
+        <p>4. Antarmuka yang Ramah Pengguna dan Mudah Digunakan</p>
+        <p>5. Menyediakan Saran dan Konsultasi dengan Dokter Secara Daring</p>
+      </div>
+      <div class="manfaat">
+        <P>Kalkulator BMI (Body Mass Index) ini memiliki beberapa manfaat, di antaranya:</P>
+          <P>1. Mengetahui Status Berat Badan</P>
+          <P>2. Meningkatkan Kesadaran Kesehatan</P>
+          <P>3. Memonitor Perkembangan Berat Badan</P>
+          <P>4. Menilai Risiko Kesehatan</P>
+          <P>5. Mempermudah Konsultasi dengan Dokter</P>
+      </div>
+  <footer>
+          <strong> Oleh Kelompok 3 : Alfa Nur Najmulhayat, M. Irvan Fadriansyah, M. Chaerul Anam dan M. Andrean Nugraha </strong>
+  </footer>
+<body>
+</html>
